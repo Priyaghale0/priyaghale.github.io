@@ -1,0 +1,127 @@
+/*splošno*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  background: #00897B;
+ width:100%;
+ 
+  
+  color: #626262;
+  width:100%;
+}
+.container-site{
+ background: #00897B;	
+  
+}
+/*meni*/
+.mobile-menu {
+	position: fixed;
+	
+	z-index: 999999;
+  cursor: pointer;
+   
+}
+.close-mobile{position: absolute;
+	padding-left: 0.5rem;
+	z-index: 999999;
+  cursor: pointer;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+}
+.menu-mobile{position: absolute;
+	padding-left: 0.5rem;
+	z-index: 999999;
+  cursor: pointer;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+}
+.gsap-menu{
+   display: inline-block;
+  margin:20px 0 0 300px;
+	
+  
+}
+
+.menu-container {
+	z-index: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: none;
+    visibility: hidden;
+    height: 100%;
+    width: 50%;
+    
+    
+    
+}
+* {
+  box-sizing: border-box;
+}
+
+.accordion {
+  width: 380px;
+  margin: 0px;
+  
+}
+.accordion-inside {
+  margin-top:-4px;
+  
+}
+.accordion-menu {
+  height:69px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+  
+  
+}
+.accordion {
+  
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.accordion-content {
+  height: 0;
+  overflow: hidden;
+  background:rgba(255,255,255, 1);
+  font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+  line-height:1.4em;
+  font-weight: 500;
+	
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.accordion-content.expanded {
+  height: 0;
+  overflow: hidden;
+  background-color:#fff;
+}
+
+p {
+   padding-top:10px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 500;
+	line-height: 20.4px;
+  font-family:"open-sans";
+}
+
+#ikona2, #ikona4, #ikona5 
+{
+  visibility: hidden;
+}
+/*notranji del*/
+#mesto{
+  margin: 0px auto ;
+  display: table;
+  
+}
+#rocica  {
+	cursor: pointer;
+   
+}
+.contentanimacija {
+	width:100%;
+   
+}
